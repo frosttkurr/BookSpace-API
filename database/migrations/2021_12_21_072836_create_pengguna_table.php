@@ -23,6 +23,7 @@ class CreatePenggunaTable extends Migration
             $table->string('username', 20);
             $table->string('password', 100);
             $table->char('minat_membaca', 10);
+            $table->string('token', 100);
             $table->timestamps();
             $table->softDeletes();
         });
